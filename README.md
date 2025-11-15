@@ -1,4 +1,4 @@
-# 🎮 Nobita's Late Dash - A* Pathfinding Game
+#  Nobita's Late Dash - A* Pathfinding Game
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Pygame](https://img.shields.io/badge/Pygame-2.0%2B-green)
@@ -8,7 +8,7 @@ An educational game demonstrating **A* pathfinding algorithm** with **heuristic 
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Features](#features)
 - [Core Concepts](#core-concepts)
 - [Installation](#installation)
@@ -25,7 +25,7 @@ An educational game demonstrating **A* pathfinding algorithm** with **heuristic 
 
 ---
 
-## ✨ Features
+##  Features
 
 - **A* Pathfinding Algorithm** - Real-time optimal path calculation
 - **Gadgets as Heuristics** - Bamboo Copter and Anywhere Door modify pathfinding costs
@@ -38,7 +38,7 @@ An educational game demonstrating **A* pathfinding algorithm** with **heuristic 
 
 ---
 
-## 🧠 Core Concepts
+##  Core Concepts
 
 ### A* Algorithm Implementation
 The game demonstrates A* pathfinding where:
@@ -48,12 +48,12 @@ The game demonstrates A* pathfinding where:
 
 ### Gadgets as Heuristics
 
-#### 🚁 Bamboo Copter
+####  Bamboo Copter
 - **Effect:** Reduces move cost by 50% (each step costs 0.5 moves instead of 1.0)
 - **Implementation:** Modifies the cost function in A*
 - **Strategy:** Collect early to maximize efficiency
 
-#### 🚪 Anywhere Door
+####  Anywhere Door
 - **Effect:** Creates teleportation edges in the graph
 - **Implementation:** Adds new neighbors to nodes in pathfinding
 - **Strategy:** Use to skip maze sections and save moves
@@ -66,7 +66,7 @@ Gian's behavior:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 ```bash
@@ -107,7 +107,7 @@ Help Nobita reach school (green target) within the move limit while avoiding Gia
 
 ---
 
-## 🎯 Game Mechanics
+##  Game Mechanics
 
 ### Move System
 - **Move Limit:** Each level has a maximum number of moves
@@ -115,9 +115,9 @@ Help Nobita reach school (green target) within the move limit while avoiding Gia
 - **Fractional Moves:** With Bamboo Copter active, moves are counted in decimals (e.g., 0.5, 1.5, 2.0)
 
 ### Star Rating
-- **⭐⭐⭐ (3 Stars):** Complete within optimal moves
-- **⭐⭐ (2 Stars):** Complete within optimal + 5 moves
-- **⭐ (1 Star):** Complete within move limit
+- ** (3 Stars):** Complete within optimal moves
+- ** (2 Stars):** Complete within optimal + 5 moves
+- ** (1 Star):** Complete within move limit
 
 ### Gadget Collection
 1. **Walk over yellow square** to collect Bamboo Copter
@@ -146,7 +146,7 @@ Help Nobita reach school (green target) within the move limit while avoiding Gia
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 nobitas-late-dash/
@@ -194,7 +194,7 @@ nobitas-late-dash/
 
 ---
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### A* Pathfinding
 ```python
@@ -268,7 +268,7 @@ def move_toward_target(target, grid):
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Main Menu
 ![Main Menu](assets/screenshots/menu.png)
@@ -284,7 +284,7 @@ def move_toward_target(target, grid):
 
 ---
 
-## 🎨 Customization
+##  Customization
 
 ### Changing Gadget Positions
 Edit the level map in `main.py`:
@@ -315,7 +315,7 @@ Modify in level definitions:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] More levels with increasing complexity
 - [ ] Additional gadgets (Time Machine, Shrink Ray)
@@ -328,7 +328,7 @@ Modify in level definitions:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To contribute:
 
@@ -346,13 +346,13 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Chaitanya Kumar Ranga**
 - GitHub: [@yourusername](https://github.com/yourusername)
@@ -362,7 +362,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Doraemon** franchise for character inspiration
 - **IIT Bhilai** for academic guidance
@@ -371,7 +371,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📊 Project Stats
+##  Project Stats
 
 - **Language:** Python
 - **Framework:** Pygame
@@ -382,7 +382,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🎓 Educational Value
+##  Educational Value
 
 This project demonstrates:
 - **Data Structures:** Priority queues, graphs, dictionaries
@@ -393,7 +393,7 @@ This project demonstrates:
 
 ---
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions:
 - Open an [Issue](https://github.com/yourusername/nobitas-late-dash/issues)
@@ -402,12 +402,13 @@ If you encounter any issues or have questions:
 
 ---
 
-## ⭐ Show Your Support
+##  Show Your Support
 
 If you found this project helpful or interesting, please give it a star! ⭐
 
 ---
 
-**Made with ❤️ by Chaitanya Kumar Ranga**
+**Made with by Chaitanya Kumar Ranga**
 
-**"Help Nobita reach school on time!"** 🏃‍♂️💨
+**"Help Nobita reach school on time!"** 
+
